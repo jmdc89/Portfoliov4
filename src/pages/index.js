@@ -3,12 +3,8 @@ import PropTypes from "prop-types";
 import styled from "styled-components";
 import { Layout } from "../components";
 
-const StyledMainContainer = styled.main`
-  counter-reset: section;
-`;
-
-const IndexPage = ({ location }) => {
-  <Layout></Layout>;
+const IndexPage = () => {
+  return <Layout></Layout>;
 };
 
 IndexPage.propTypes = {
