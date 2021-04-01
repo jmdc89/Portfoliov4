@@ -6,8 +6,8 @@ import styled, { css } from "styled-components";
 import { navLinks } from "../config";
 import { loaderDelay } from "../utils";
 import { useScrollDirection } from "../hooks";
-import { Menu } from "@components";
-import { IconLogo } from "@components/icons";
+import { Menu } from "./menu";
+import { IconLogo } from "./icons";
 
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
